@@ -1,0 +1,95 @@
+body {
+	font-family: 'Cabin', sans-serif;
+}
+
+#container {
+	width: 960px;
+	margin: 12px auto;
+	padding: 16px 0px;
+	text-align: center;
+    
+}
+
+#thumbnail {
+
+}
+
+#thumbnail img {
+	width: 220px;
+}
+
+#header {
+	padding: 8px ;
+	padding-bottom: 0px;
+	font-size: 36px;
+	font-weight: bolder;
+	margin-bottom: 4px;
+}
+
+#subheader {
+	font-style:  italic;
+	font-size: 20px;
+	margin: 8px;
+	margin-bottom: 12px;
+}
+
+#description {
+	width: 720px;
+	margin: 24px auto;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+a {
+	text-decoration: none;
+	width: 180px;
+}
+
+#link {
+	width: 180px;
+	padding: 16px 16px;
+	margin: 8px auto;
+	background-color: #BA68C8;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	font-weight: 900;
+	display: inline-block;
+
+}
+
+
+
+.list-container {
+	background-color: #f5f5f5;
+	margin: 36px auto;
+	width: 600px;
+	height: 500px;
+}
+
+#list-container2  {
+	height: 340px;
+}
+
+.list-title {
+	font-size: 24px;
+	padding: 16px;
+	margin: 8px auto;
+	padding-top: 28px;
+}
+
+.list-content {
+	margin: 4px auto;
+	width: 420px;
+	height: 300px;
+}
+
+.list-item {
+	background-color: white;
+	margin: 20px auto;
+	line-height: 32px;
+	font-size: 20px;
+	height: 40px;
+	padding: 8px;
+
+}
