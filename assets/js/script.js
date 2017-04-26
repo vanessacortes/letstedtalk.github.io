@@ -106,12 +106,12 @@ $(document).ready(function() {
 
 	
 	$("#carousel-prev3").click(function() {
-	  var currentmargin = (parseInt($('#carousel3').css('margin-left').replace("px", "")));
-	  if (currentmargin == 0 ){
+	  var currentmargin3 = (parseInt($('#carousel3').css('margin-left').replace("px", "")));
+	  if (currentmargin3 == 0 ){
 	    return false;
 	  }
 	  else {
-	    $("#carousel3").css('margin-left', (currentmargin + 560));
+	    $("#carousel3").css('margin-left', (currentmargin3 + 560));
 	  }
 	});
 });
