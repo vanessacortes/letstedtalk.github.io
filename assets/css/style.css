@@ -260,10 +260,18 @@ a {
 .bottombar-wrapper {
 	padding: 20px 0;
 	width: 100%;
-	height: 100px;
+	height: 400px;
+	width:100%;
+	background-color: black;
 }
 .bottombar-container {
 	width: 100%;
 	background-color: black;
 	height: 100px;
+	text-align: center;
+}
+.ted-logo img {
+	width: 600px;
+	height: 400px;
+
 }
