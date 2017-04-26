@@ -51,24 +51,67 @@ $(document).ready(function() {
 	});
 
 
-	$("#carousel-next").click(function() {
-	  var currentmargin = (parseInt($('#carousel').css('margin-left').replace("px", "")));
-	  if (currentmargin == -1120) {
+	$("#carousel-next1").click(function() {
+	  var currentmargin1 = (parseInt($('#carousel1').css('margin-left').replace("px", "")));
+	  if (currentmargin1 == -1120) {
 	    return false;
 	  }
 	  else {
-	    $("#carousel").css('margin-left', (currentmargin - 560));
+	    $("#carousel1").css('margin-left', (currentmargin1 - 560));
 	  }
 	});
 
 	
-	$("#carousel-prev").click(function() {
-	  var currentmargin = (parseInt($('#carousel').css('margin-left').replace("px", "")));
+	$("#carousel-prev1").click(function() {
+	  var currentmargin1 = (parseInt($('#carousel1').css('margin-left').replace("px", "")));
+	  if (currentmargin1 == 0 ){
+	    return false;
+	  }
+	  else {
+	    $("#carousel1").css('margin-left', (currentmargin1 + 560));
+	  }
+	});
+
+	$("#carousel-next2").click(function() {
+	  var currentmargin2 = (parseInt($('#carousel2').css('margin-left').replace("px", "")));
+	  if (currentmargin2 == -1120) {
+	    return false;
+	  }
+	  else {
+	    $("#carousel2").css('margin-left', (currentmargin2 - 560));
+	  }
+	});
+
+	
+	$("#carousel-prev2").click(function() {
+	  var currentmargin2 = (parseInt($('#carousel2').css('margin-left').replace("px", "")));
+	  if (currentmargin2 == 0 ){
+	    return false;
+	  }
+	  else {
+	    $("#carousel2").css('margin-left', (currentmargin2 + 560));
+	  }
+	});
+
+
+	$("#carousel-next3").click(function() {
+	  var currentmargin3 = (parseInt($('#carousel3').css('margin-left').replace("px", "")));
+	  if (currentmargin3 == -1120) {
+	    return false;
+	  }
+	  else {
+	    $("#carousel3").css('margin-left', (currentmargin3 - 560));
+	  }
+	});
+
+	
+	$("#carousel-prev3").click(function() {
+	  var currentmargin = (parseInt($('#carousel3').css('margin-left').replace("px", "")));
 	  if (currentmargin == 0 ){
 	    return false;
 	  }
 	  else {
-	    $("#carousel").css('margin-left', (currentmargin + 560));
+	    $("#carousel3").css('margin-left', (currentmargin + 560));
 	  }
 	});
 });
